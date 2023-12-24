@@ -1,5 +1,5 @@
 [services]
-app = { command = "node src/app.js", port = 3000 }
+app = { command = "node src/app.js", port = 8080 }
 
 [env]
-NODE_ENV = "production"
+NODE_ENV = "development"
