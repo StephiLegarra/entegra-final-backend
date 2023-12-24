@@ -1,0 +1,5 @@
+[services]
+app = { command = "node src/app.js", port = 3000 }
+
+[env]
+NODE_ENV = "production"
